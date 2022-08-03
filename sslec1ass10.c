@@ -9,13 +9,9 @@ int main()
     int Day, Month, Year;
     system("cls");
 
-    printf("Enter the Day : ");
-    scanf("%d", &Day);
-    printf("\nEnter the Month : ");
-    scanf("%d", &Month);
-    printf("\nEnter the Year : ");
-    scanf("%d", &Year);
-    printf("\nDay-%d ,Month-%d ,Year-%d", Day, Month, Year);
+    printf("Enter the Date,Month and Year in DD/MM/YYYY format");
+    scanf("%d/%d/%d",&Day,&Month,&Year);
+    printf("Day-%d , Month-%d ,Year-%d",Day,Month,Year);
 
     getch();
     return 0;
