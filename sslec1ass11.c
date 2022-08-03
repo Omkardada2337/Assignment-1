@@ -7,11 +7,8 @@ int main()
 {
     int hour, minute;
     system("cls");
-    printf("Enter the hour :");
-    scanf("%d",&hour );
-    printf("\nEnter the minutes :");
-    scanf("%d",&minute );
-
+    printf("Enter the hour and minutes in HH:MM format :");
+    scanf("%d:%d",&hour,&minute );
     printf("\n\n%d hour and %d Minute",hour,minute);
 
     getch();
